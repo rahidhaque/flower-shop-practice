@@ -136,11 +136,27 @@ header {
 }
 
 /* deals design  */
+
+.hot-deal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 200px;
+}
+
 .hot-deal-text {
     color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
+}
+
+.hot-deal-description p{
+    max-width: 594px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .hot-deal p{
@@ -151,3 +167,8 @@ header {
     width: 318px;
     height: 420px;
 }
+
+.button-sign-up{
+    text-align: center;
+}
+
