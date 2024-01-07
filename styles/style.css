@@ -172,3 +172,15 @@ header {
     text-align: center;
 }
 
+.instagram-text{
+    max-width: 594px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.instagram-images{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-bottom: 128px;
+}
