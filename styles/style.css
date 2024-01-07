@@ -184,3 +184,49 @@ header {
     gap: 24px;
     margin-bottom: 128px;
 }
+
+
+/* sign up  */
+
+.newsletter-content{
+    border-radius: 8px;
+    background-image: url('../images/Rectangle\ 9.png');
+    padding: 100px;
+    margin-bottom: 128px;
+}
+
+.sign-up{
+    margin-top: 48px;
+    text-align: center;
+}
+
+#email{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 22px;
+}
+
+.button-subscribe{
+    border-radius: 8px;
+    background-color: #E55473;
+    padding: 20px 43px;
+    border: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 16px;
+}
+
+.button-subscribe:hover {
+    background-color: #e43d61;
+}
+
+footer{
+    background-color: #111010;
+}
