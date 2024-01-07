@@ -18,8 +18,12 @@ p {
 }
 
 .section-heading {
-    color: #272727;
     text-align: center;
+    margin: 20px auto;
+}
+
+.section-heading h2 {
+    color: #272727;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -76,9 +80,74 @@ header {
 /* main section */
 
 /* feautured flower section  */
-.flower-text {
+.flower-name {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
+    margin-top: 32px;
+    text-align: center;
     text-decoration-line: underline;
+}
+
+.flower-text {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    gap: 20px;
+}
+
+.flowers {
+    width: 464px;
+    height: 538px;
+    padding: 0 78px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flower-img img {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.featured-flowers {
+    background-color: #FFF;
+}
+
+.featured-flowers .section-heading h2 {
+    margin-top: 178px;
+}
+
+.flower-delivery {
+    margin: 128px 0;
+    border-radius: 8px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 86px 175px;
+}
+
+/* deals design  */
+.hot-deal-text {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.hot-deal p{
+    margin-bottom: 32px;
+}
+
+.hot-deal-img img{
+    width: 318px;
+    height: 420px;
 }
