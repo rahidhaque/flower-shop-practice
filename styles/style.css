@@ -17,6 +17,14 @@ p {
     font-weight: 400;
 }
 
+.section-heading {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
 button {
     border-radius: 8px;
     background-color: #E55473;
@@ -25,6 +33,11 @@ button {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e43d61;
 }
 
 
@@ -39,8 +52,8 @@ header {
     justify-content: space-between;
 }
 
-.banner-text{
-   margin-right: 97px;
+.banner-text {
+    margin-right: 97px;
 }
 
 .banner-text h1 {
@@ -54,9 +67,18 @@ header {
     margin-bottom: 32px;
 }
 
-.banner-img img{
+.banner-img img {
     width: 635px;
     height: 800px;
     vertical-align: middle;
 }
 
+/* main section */
+
+/* feautured flower section  */
+.flower-text {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
